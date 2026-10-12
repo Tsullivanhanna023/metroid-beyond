@@ -1,0 +1,3 @@
+# Publication artifacts must retain their exact verified bytes.
+site/** -text
+release-sha256.json -text
