@@ -23,7 +23,9 @@ async function inventory(dir, prefix = '') {
 }
 
 const release = JSON.parse(await fs.readFile(path.join(root, 'release-sha256.json'), 'utf8'));
-check(release.version === '0.2.14', 'finished browser release 0.2.14');
+check(/^\d+\.\d+\.\d+$/.test(release.version), 'finished browser release version');
+const basePaths = release.basePaths;
+check(Array.isArray(basePaths) && basePaths.length > 0 && basePaths.every(p => p.startsWith('/') && p.endsWith('/')), 'configured Pages base paths');
 const listed = await inventory(site);
 assert.deepEqual(listed, Object.keys(release.files).sort()); checks++;
 for (const file of listed) {
@@ -58,7 +60,7 @@ check(shell.includes('const GODOT_THREADS_ENABLED = false;'), 'single-thread bro
 
 const origin = 'https://travis-test.github.io';
 let peakConnections = 0;
-for (const basePath of ['/', '/metroid-beyond/']) {
+for (const basePath of basePaths) {
   const base = new URL(basePath, origin);
   const calls = []; let active = 0; let maximum = 0; let fault;
   const fixtureFetch = async (input, init) => {
@@ -84,13 +86,13 @@ for (const basePath of ['/', '/metroid-beyond/']) {
     document: { baseURI: new URL('index.html', base).href }, location: { origin } });
   vm.runInContext(adapter, context);
   for (const [name, entry] of Object.entries(manifest.files)) {
-    const response = await context.fetch(new URL(name + '?release=0.2.14', base).href,
+    const response = await context.fetch(new URL(name + '?release=' + encodeURIComponent(release.version), base).href,
       { headers: { 'X-Release-Check': 'kept' }, cache: 'reload', credentials: 'same-origin' });
     check(response.status === 200 && response.headers.get('content-type') === entry.mime, `${basePath}${name}: streaming response`);
     check(sha(new Uint8Array(await response.arrayBuffer())) === entry.sha256, `${basePath}${name}: runtime bytes`);
     check(calls.slice(-entry.chunks.length).every(request => {
       const url = new URL(request.url);
-      return url.pathname.startsWith(basePath + 'engine-parts/') && url.search === '?release=0.2.14' &&
+      return url.pathname.startsWith(basePath + 'engine-parts/') && url.search === '?release=' + encodeURIComponent(release.version) &&
         request.headers.get('X-Release-Check') === 'kept' && request.cache === 'reload' && request.credentials === 'same-origin';
     }), `${basePath}${name}: repository path and request options preserved`);
   }
@@ -119,5 +121,5 @@ for (const basePath of ['/', '/metroid-beyond/']) {
 }
 console.log(JSON.stringify({ result: 'PASS', version: release.version, checks, verifiedFiles: listed.length,
   totalBytes: Object.values(release.files).reduce((sum, entry) => sum + entry.bytes, 0),
-  testedBasePaths: ['/', '/metroid-beyond/'], maxConcurrentChunkFetches: peakConnections,
+  testedBasePaths: basePaths, maxConcurrentChunkFetches: peakConnections,
   originalEngineAndGameBytes: true, originalRecordedAudioBytes: true }, null, 2));

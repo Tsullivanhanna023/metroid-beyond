@@ -1,5 +1,9 @@
 {
-  "version": "0.2.14",
+  "version": "0.2.15",
+  "basePaths": [
+    "/",
+    "/metroid-beyond/"
+  ],
   "files": {
     ".nojekyll": {
       "bytes": 0,
@@ -10,12 +14,12 @@
       "sha256": "d2c580c599ffd2d026ac438d8647d062883c52d85c0cc48008c17f46e00065ce"
     },
     "asset-manifest.json": {
-      "bytes": 10771,
-      "sha256": "ba31fb22f414c1c5cc8d3f65d474e5cda6525fbb2779eff25ed8918a8c5ab373"
+      "bytes": 10770,
+      "sha256": "3a4450279f2c0623453918e6bb8f39a489c3efa1c5165c8698b94040c8aabc24"
     },
     "engine-parts/index.pck.part-000.bin": {
       "bytes": 8388608,
-      "sha256": "4a68ebcf8578ca093d900f4bb6048f09f5b07e6f5a285d9e2abbede0a2d12357"
+      "sha256": "ee9bd026cd873e899640c23d68093fcce2ff9141b2764ef1bde5699d8ce6c2ed"
     },
     "engine-parts/index.pck.part-001.bin": {
       "bytes": 8388608,
@@ -27,19 +31,19 @@
     },
     "engine-parts/index.pck.part-003.bin": {
       "bytes": 8388608,
-      "sha256": "a424388cf9ca0091c53bfffd22ae8ce295664bd722b1f033da6106ce7910fab3"
+      "sha256": "ff8bab60dd95ac7e2d48c543da7cc242a3a9d5ca9784e66fd598d3d9d5ba593b"
     },
     "engine-parts/index.pck.part-004.bin": {
       "bytes": 8388608,
-      "sha256": "9060cb260791cb3ba4199d8983cd6daf6a085233ffc6a8d0ab803982b75ea06b"
+      "sha256": "3f5164d6d074b459a96311e9e00f805d069a20b38889ac25d3636243c3e72e24"
     },
     "engine-parts/index.pck.part-005.bin": {
       "bytes": 8388608,
-      "sha256": "413bcad839f3e0352a31ccb0a5e42795f6c4290137d7abc61a8b9323cdf45bca"
+      "sha256": "379960577e58889ba6dd65cbd1061780ec51b78fc562a0230a46c8b056e73dc7"
     },
     "engine-parts/index.pck.part-006.bin": {
-      "bytes": 7310352,
-      "sha256": "c8d04eafbdd43f36805d62e142fc354097d0b717aaf913cefae8a8be23af3ad5"
+      "bytes": 7357160,
+      "sha256": "9b6b4ed7164c7e5e872bb572914d9e4548ecac38f0f4bbd23d9aad1a582f6ef8"
     },
     "engine-parts/index.wasm.part-000.bin": {
       "bytes": 8388608,
@@ -63,7 +67,7 @@
     },
     "engine-stream.js": {
       "bytes": 5422,
-      "sha256": "1b205a3447211d90b192de2d6e069b6a172fcf0b58d1ef15379dc99aaedb5205"
+      "sha256": "7f7b5f760f259539b4885de9d5079c9513cf09bba7ceb845fca7834e97244f8b"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -75,7 +79,7 @@
     },
     "index.html": {
       "bytes": 5344,
-      "sha256": "f5ac8ba9c4b8e7c7e1ec39f516e199c9941dd62e73cd5296447551bba96f907f"
+      "sha256": "3ad0cc0bbd3fd300ed06f2bcc88ce61072452df762adc4efc6f73da86ddb61a3"
     },
     "index.js": {
       "bytes": 279815,
@@ -114,16 +118,16 @@
       "sha256": "23dd2506a9c5e0e49a49de75189104e5f094b65a2ee55261c299d111e013db19"
     },
     "music/sfx-beam.wav": {
-      "bytes": 32676,
-      "sha256": "2e5f4af468e328d8682bb51bfcfc38ffe0b14a1a6ffb0ad4b888f54dcadfaf39"
+      "bytes": 36204,
+      "sha256": "a55d1774e542a2fa414403815b67d04a481083b9c0d0ae98fbbcca9722b0bf64"
     },
     "music/sfx-beam_hit.wav": {
-      "bytes": 21212,
-      "sha256": "d5d939e169e5f4f09eaa38971788c273b838f9d4c0dd11366f22b84c66cafc2d"
+      "bytes": 25620,
+      "sha256": "01cfde85e041ce8bfd4487fc5f53835bd04d05db2aab10a3fd8a108b9e406eb4"
     },
     "music/sfx-bomb.wav": {
-      "bytes": 82952,
-      "sha256": "bb15bab9f5b957eabb84533831914329f89926cef994c00e2ea76a9a2bc34303"
+      "bytes": 98828,
+      "sha256": "5d973651651bdc6b205828aec1143df5803b7bea9cfd4992b2605ed315e3a4c6"
     },
     "music/sfx-bomb_place.wav": {
       "bytes": 19448,
@@ -138,36 +142,36 @@
       "sha256": "ee9cfda765d15e70e25f9d095cee36bb661909a65cfd0af6a66c3a8a61ace9e1"
     },
     "music/sfx-burrow_attack.wav": {
-      "bytes": 75896,
-      "sha256": "5b0de3dfd05958aa26f0513aabe285685d9c126b6e29d37c8c056ffb2274b8a6"
+      "bytes": 104120,
+      "sha256": "2b7ba8ecef94b25473dbe79c3db10224f55560e7e3ca923d6f467df3172c4e46"
     },
     "music/sfx-burrow_victory.wav": {
-      "bytes": 215252,
-      "sha256": "503ba0118972b38eb43061d7ed61e3fca59c3f26d9c7f6a7011eff9cbdc3187c"
+      "bytes": 229364,
+      "sha256": "30440bf31a5fd1c285e09e0fb2eb6df4fdf19dfaf42ee393429d8add02776d64"
     },
     "music/sfx-burrow_warn.wav": {
-      "bytes": 109412,
-      "sha256": "c3d6ebc3ae0d76f32fa2074b09f1851bfd51b08de43831c54f526e77bdd5f8bc"
+      "bytes": 88244,
+      "sha256": "f079cbada6d64ec6c5620c54db5602eea93188be807ade7419029e9cb57fb51b"
     },
     "music/sfx-charge.wav": {
-      "bytes": 107648,
-      "sha256": "f85e296b7a133e5cf027f02307b76368b9126206b70c7fc5c11bc3908dce417e"
+      "bytes": 119996,
+      "sha256": "08c79f17226762c0ba81e0130225077556e1be7bfa2d22c98ae70c00678e2f09"
     },
     "music/sfx-charge_build.wav": {
       "bytes": 99708,
-      "sha256": "b7b3d6b2bd2c005bfa6a3a44862194a9254566c3110451ceac7f6621cfb4de38"
+      "sha256": "fe18d38933c9f12f301141be17e6af64f5c2ca5d83db12d09de545ec968bf6fb"
     },
     "music/sfx-charge_hit.wav": {
-      "bytes": 111176,
-      "sha256": "58e8f9996d7cbde7395afd9e952b62d32c08d811e525f9fcde06445b5f30745c"
+      "bytes": 128816,
+      "sha256": "41bb31a9edfbb8715e91df456af465a19f12818012652fc333b295e9eae2d2b9"
     },
     "music/sfx-charge_hold.wav": {
       "bytes": 266408,
-      "sha256": "bf78bf1cba4e46f4bb5f3d4a9db1c19556d6e3a15e31a2f29825d56f43c9d116"
+      "sha256": "c35792f56763bbb9ec896073a2bba1e7fba7417bfd15fd5fe07bfdc8ccc301f1"
     },
     "music/sfx-charge_ready.wav": {
       "bytes": 21212,
-      "sha256": "c799a88e656d60aba1cb35b34d1e45755c45872d035f22389da08ee48529444f"
+      "sha256": "2ba2970c6ad3704656e42f49996c2df052d9cdbb6c9c32841424c40d196d4cf1"
     },
     "music/sfx-death.wav": {
       "bytes": 239948,
@@ -190,16 +194,16 @@
       "sha256": "fa22ecc30024164724f3bfa3ccc3eec31c5603cb0b3786848ddcd98364665c9d"
     },
     "music/sfx-enemy_down.wav": {
-      "bytes": 60020,
-      "sha256": "31f23e986cfdb3572c723878f1b33d9eb39c849ea50139c8365abaaf058be51b"
+      "bytes": 67076,
+      "sha256": "abf724f76e793fda6abd6a3babf75227d50d5c9689c21812ae27b08de6348d95"
     },
     "music/sfx-enemy_hit.wav": {
-      "bytes": 22976,
-      "sha256": "e0cedc5b1cd1521ba4a1644c9242fb55da0cb76b5db8215292ab06efff226495"
+      "bytes": 28268,
+      "sha256": "0a2a73f68101c5a9196787924d42a6335ba7a50e24bd08068d0ada7c6e568c32"
     },
     "music/sfx-enemy_shot.wav": {
-      "bytes": 38852,
-      "sha256": "f5d5fed9e80d567daedb1c5e8c5c11a73a93e077c5dd706f9e9c3ba992cd3ee2"
+      "bytes": 42380,
+      "sha256": "05886774399969d6e4efeb57395de57094f8f2071d5d8abd874878fdc5a04ea1"
     },
     "music/sfx-energy.wav": {
       "bytes": 28268,
@@ -222,24 +226,24 @@
       "sha256": "43df53eb9029601a987398e9614f0e1e80709e8ff99b9d882682cf6ec7203b53"
     },
     "music/sfx-missile.wav": {
-      "bytes": 60900,
-      "sha256": "481861b2e4280091800f9f9b6add021f954ff03e364e320395c62e2a76ffa7ce"
+      "bytes": 64428,
+      "sha256": "15a99b702bb3835dd494672ef899ce84d1ff4ac85b8feb4e27c2d374f4624f2d"
     },
     "music/sfx-missile_hit.wav": {
-      "bytes": 98828,
-      "sha256": "6ed206d82fdd29ca54aca1b148efc53548116cbeea15a9ed32e1dfaffed37d70"
+      "bytes": 114704,
+      "sha256": "e6c4884c84306aea68288a5c881427b09ad840a0a5936f4e8381d602f1e6c718"
     },
     "music/sfx-mooncap_attack.wav": {
-      "bytes": 70604,
-      "sha256": "8f056a46cc465d9483552dcfd4ecc03ed2958405c5dac9dc0b99164c121242f0"
+      "bytes": 84716,
+      "sha256": "8376e5e6d1fe3dee4be5715a1ae83da8f8256912f80797b53f26c50def4d9186"
     },
     "music/sfx-mooncap_victory.wav": {
-      "bytes": 197612,
-      "sha256": "4717ea166c3c861aa22122e481b27b3873881f51eacaff892101859b7d18abef"
+      "bytes": 229364,
+      "sha256": "dd39a3189fe22f644760a54097c148d28898f21c0663c90c485da1577cde5601"
     },
     "music/sfx-mooncap_warn.wav": {
-      "bytes": 100592,
-      "sha256": "4fa763d5e66aae865bb928101e00904cb16ab8c6e94acf6f7ece24313b1c52f0"
+      "bytes": 86480,
+      "sha256": "81cdb60c695e19a1ad296526b590c4de8c4b67680ca8fe537e33ba062d31b3d2"
     },
     "music/sfx-morph.wav": {
       "bytes": 37088,
@@ -266,20 +270,20 @@
       "sha256": "7f4631eb684408afac59072eea8ec70191c0c0a65a60128ba1734cd12fbe05f1"
     },
     "music/sfx-storm_attack.wav": {
-      "bytes": 72368,
-      "sha256": "bed4c162c9fc464c6c023b566940c836935938b9b9beac2a915d29d6a55a84d1"
+      "bytes": 82952,
+      "sha256": "54941c495af5889b7569e839280278d936bb16e13f2dec45effa9e73ec6bcf01"
     },
     "music/sfx-storm_victory.wav": {
-      "bytes": 201140,
-      "sha256": "0919b807a4d04443b5c0df933011de4e0c3537e0b0fda6000ab830e9265af4b6"
+      "bytes": 229364,
+      "sha256": "fee7109a3f2b57bd6a359a699c4ddbae0622b166c297a020e244687885dee53b"
     },
     "music/sfx-storm_warn.wav": {
-      "bytes": 100592,
-      "sha256": "1adb16ea21ec25e902c9b45d6e72168a3345180935e19925af7cdd10d0066bfa"
+      "bytes": 86480,
+      "sha256": "c691a01da311d26627a07356fc952fabbbc735b674b72b4642d5aae162604e8a"
     },
     "music/sfx-super.wav": {
-      "bytes": 75896,
-      "sha256": "bc8d009a19ec871769a770b3ab90731b7b8240596e984a723f24ea1366d12fc1"
+      "bytes": 84716,
+      "sha256": "7cc8d14410c21d4b3bb8b090601cdb96213f06f13b4a38b6eeaaaa50fc0dd351"
     },
     "music/sfx-thermal_hit.wav": {
       "bytes": 37088,
