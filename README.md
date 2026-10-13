@@ -1,8 +1,8 @@
 # Metroid Beyond
 
-A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.19** browser release.
+A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.20** browser release.
 
-This boss scale pass enlarges all three guardians with shared artwork, contact and projectile dimensions, grounded anchors, size-aware flight and readable attack origins. The arena floor and return/reward paths accommodate the larger encounters. Controls, character movement, soundtrack and browser-local saves are retained.
+This landing pad pass replaces the old flat bar and square lamps with dedicated, detailed metal artwork, reinforced supports and inset lights that match the spacecraft. Its contact plane remains aligned to the ship feet and terrain. World layout, controls, progression, soundtrack and browser-local saves are retained.
 
 Open the repository's GitHub Pages link to play. Click the game and press a controller button to activate controller input and sound. The game's controller setup screen explains the current mappings.
 
