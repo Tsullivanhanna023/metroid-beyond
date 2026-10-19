@@ -1,8 +1,8 @@
 # Metroid Beyond
 
-A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.21** browser release.
+A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.22** browser release.
 
-This character animation correction keeps the body and legs connected through a balanced stride, preserves whole-body anatomy while aiming vertically, and gives save stations a stable resting suit pose with entry facing the chamber. Bosses retain their dramatic scale at eighteen percent smaller, with matching artwork, contact, navigation and attack origins. Controls, world progression, equipment, recorded soundtrack and browser-local saves are retained.
+This character motion restoration recovers the original complete authored running, jumping, crouching and aiming poses and their original 76-pixel cadence. It removes the later deforming leg rig and mismatched in-play body overrides. Native character textures use smooth mipmap filtering without changing the artwork or poses. The newer ship, landing pad, terrain, morph sphere, accepted boss dimensions, controls, progression, recorded soundtrack and browser-local saves are retained.
 
 Open the repository's GitHub Pages link to play. Click the game and press a controller button to activate controller input and sound. The game's controller setup screen explains the current mappings.
 
