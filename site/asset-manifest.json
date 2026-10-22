@@ -1,5 +1,5 @@
 {
-  "version": "0.2.25",
+  "version": "0.2.26",
   "adapter": "sequential-fetch-stream-v1",
   "chunkSize": 8388608,
   "files": {
@@ -36,14 +36,14 @@
       ]
     },
     "index.pck": {
-      "bytes": 105906092,
-      "sha256": "335916d02b05b254469b5e45bd6c8dbeebc0a55a31297a391dafacc71c88c6ef",
+      "bytes": 105905868,
+      "sha256": "e5c2293d19df7a6617a668cbe3148c18f0cc91cae2faf9c83ef1c0b99e01e8cd",
       "mime": "application/octet-stream",
       "chunks": [
         {
           "file": "engine-parts/index.pck.part-000.bin",
           "bytes": 8388608,
-          "sha256": "3c25407f2af3a07efe9f10bef14613ebbd6aec4a3283c1f6bf04ff2a88e8776f"
+          "sha256": "7c3a4ef99182fc594b44c1eedd8b6084d2b4cbc7a33899db7352ba2241f6b33f"
         },
         {
           "file": "engine-parts/index.pck.part-001.bin",
@@ -102,8 +102,8 @@
         },
         {
           "file": "engine-parts/index.pck.part-012.bin",
-          "bytes": 5242796,
-          "sha256": "dcdc9e8cbff41689658de06336fa2f6aa30eca4b8ffad47527725d41b491f93c"
+          "bytes": 5242572,
+          "sha256": "5231bd1544f28e22228a488cd1182cde02e874e0e916cd677c07e27faf5dea7e"
         }
       ]
     }
