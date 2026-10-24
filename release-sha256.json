@@ -1,5 +1,5 @@
 {
-  "version": "0.2.28",
+  "version": "0.2.29",
   "basePaths": [
     "/",
     "/metroid-beyond/"
@@ -15,11 +15,11 @@
     },
     "asset-manifest.json": {
       "bytes": 11931,
-      "sha256": "516ed1c1c009087082b9abbda57fcf8e03d803073066e48fb659416d27e24a65"
+      "sha256": "a57d457512386ea356dc931eb1e5e61b4adf8edcb6be71ce32c1321bd0247fa6"
     },
     "engine-parts/index.pck.part-000.bin": {
       "bytes": 8388608,
-      "sha256": "624ad1de467b3e983ff0102d8950af07d4766c1d0118a8050cfef81390d235dc"
+      "sha256": "50b43a8dd7d484b7f36dd39badf520643048cb07dfad07c69aa42555e24fb95e"
     },
     "engine-parts/index.pck.part-001.bin": {
       "bytes": 8388608,
@@ -35,39 +35,39 @@
     },
     "engine-parts/index.pck.part-004.bin": {
       "bytes": 8388608,
-      "sha256": "09c0cf6ba2dabdacf51fa6da38ffcaf732e971951bd07b62aebd34501c350779"
+      "sha256": "67cd2b33c6ee72d56d4b865417902b2d63f47694d779b8b47f0d2dd11d105ac3"
     },
     "engine-parts/index.pck.part-005.bin": {
       "bytes": 8388608,
-      "sha256": "6080af093e6c60261562bacba94f3d8ab292bb3aa40f8491155a4b68d5a87d79"
+      "sha256": "2b9bc497cc5a0988b8c490f001e95dc87a1e8ce12b89e235096627e7c5e80a1d"
     },
     "engine-parts/index.pck.part-006.bin": {
       "bytes": 8388608,
-      "sha256": "306074293f5d92349493f857e2e2fad21bb527cad7aaccfb457db5336b2bcfdf"
+      "sha256": "1cfc17587644dee8e752504a1d9794695d445c103cc4fef1fe1a6b080ddc618a"
     },
     "engine-parts/index.pck.part-007.bin": {
       "bytes": 8388608,
-      "sha256": "080a763e7979b7fd7c1aac5831b3b960c78cefa3db6283196a3213d4bff68cd1"
+      "sha256": "0f19ceec124d4b53ff9ba4ab0f79ad8b9df782e61b4d658d7d59d0c0394fa5f4"
     },
     "engine-parts/index.pck.part-008.bin": {
       "bytes": 8388608,
-      "sha256": "0c65906a43f33da6d09da4477ffe84cb78d653e2a01cd007a59b411ec01773b3"
+      "sha256": "ef596bdc0c9e6bcb5f8f5a59a49e3bbb2e49d955fe3d7a400967a231332040bd"
     },
     "engine-parts/index.pck.part-009.bin": {
       "bytes": 8388608,
-      "sha256": "e140880ab3016359f57257a45dc4dc5f93e4f2cd8b777f4c4b95445a2d6528fb"
+      "sha256": "47101de82bb5dec265719d3f4267ee7392f3246bf285fdaa318e6bfc69c9e8e9"
     },
     "engine-parts/index.pck.part-010.bin": {
       "bytes": 8388608,
-      "sha256": "515b21d6dd35c53a546e25c2583661bffd6cd3f1168b6242e6f0bfae9e94c6ba"
+      "sha256": "384bb5cc07876cf3ce8e75981f9000da492b6b7a788a7c96a74db34704e6e8e1"
     },
     "engine-parts/index.pck.part-011.bin": {
       "bytes": 8388608,
-      "sha256": "7a8b4f0c7d74b8cea1cd8e03dd410613f96285afb8beeb38b3084bb7748daf4d"
+      "sha256": "6d343f92b59d291fae88437390f52bf96a8166f9a14d8db20d2bebe4b5816c1b"
     },
     "engine-parts/index.pck.part-012.bin": {
-      "bytes": 5251436,
-      "sha256": "3b142dedfc677ea8e005d8fbcad763007386065b6ccf10c48c6f3fc3e7f7d838"
+      "bytes": 5251196,
+      "sha256": "aaa67a24eccb0e3cebadae06388ff6c2168854c37fac876af99345cdec7f47db"
     },
     "engine-parts/index.wasm.part-000.bin": {
       "bytes": 8388608,
@@ -91,7 +91,7 @@
     },
     "engine-stream.js": {
       "bytes": 6257,
-      "sha256": "6fa98731181cacef7b5bae5268089ac407436a9fa7abeacf31e27356bbb8d919"
+      "sha256": "cd01006f46138f3f059846ac411aa333ae894ce1f80943aae3b43997699b3735"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -103,7 +103,7 @@
     },
     "index.html": {
       "bytes": 5790,
-      "sha256": "b988c198648b5097013701a5c68927d7a5deca434703e05a25b17e1f86554f0f"
+      "sha256": "33e3c7d340977797b065a80f90f9227b74f84b0cc1ac781863e26893c78f5b8e"
     },
     "index.js": {
       "bytes": 279815,
