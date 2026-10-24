@@ -31,3 +31,7 @@ Original layered adaptations of CC0 physical recordings from BigSoundBank.
 Source authors: Joseph SARDIN, Pablo BERGEL, DenisChardonnet, DavidGreck, and Joseph SARDIN with Axeline T.
 
 https://bigsoundbank.com/licenses.html
+
+ORIGINAL SOUND DESIGN
+
+Power Beam discharge and impact: original offline sound design for Metroid Beyond, 0.2.30. No external or game recordings used in these two replacement effects.
