@@ -35,3 +35,5 @@ https://bigsoundbank.com/licenses.html
 ORIGINAL SOUND DESIGN
 
 Power Beam discharge and impact: original offline sound design for Metroid Beyond, 0.2.30. No external or game recordings used in these two replacement effects.
+
+Charge buildup, held field, readiness, discharge and impact: original offline pressure/plasma sound design for Metroid Beyond, 0.2.33. No external or game recordings used in these five replacement effects.
