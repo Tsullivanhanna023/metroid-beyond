@@ -1,8 +1,8 @@
 # Metroid Beyond
 
-A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.39** browser release.
+A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.40** browser release.
 
-This focused visual revision replaces the released charge shot with a concentrated spherical energy volume and rapid internal plasma motion. The held charge, regular beam, missiles, movement, aiming, collision, damage, firing cadence, all 32 rooms, saves, challenge settings and approved recorded score are preserved.
+This focused visual revision unifies the complete charge sequence with one animated plasma material, from gathering at the cannon through the ready hold and launch into a spherical released shot. The regular beam, missiles, movement, aiming, collision, damage, firing cadence, all 32 rooms, saves, challenge settings and approved recorded score are preserved.
 
 Open the repository's GitHub Pages link to play. Click the game and press a controller button to activate controller input and sound. The game's controller setup screen explains the current mappings.
 
