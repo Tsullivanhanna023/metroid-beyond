@@ -18,8 +18,8 @@
       "sha256": "6acbac77f03ddc280e7e0e83832b2923ea8d71a42257923cea02f2c180acedc1"
     },
     "asset-manifest.json": {
-      "bytes": 13136,
-      "sha256": "bcd579e5bd63edfdf867546799cf5db9132893de9b7d59ba7fcf7f3a39b9eb33"
+      "bytes": 13247,
+      "sha256": "3fd2b90239c12a18c8ffd1ef7f58eddd095f4371163d634b3696abbbe72478b4"
     },
     "engine-parts/index.pck.part-000.bin": {
       "bytes": 8388608,
@@ -110,8 +110,8 @@
       "sha256": "219249da87c3cfda9a89fba24e253e60d6efd5191d0b108120ad93e51e54d707"
     },
     "engine-stream.js": {
-      "bytes": 6813,
-      "sha256": "3b6794a8ee9b3b04fae09df27438e0df9f3b3061219366f3fa69e2610eb1d6cc"
+      "bytes": 6836,
+      "sha256": "a304716acd94b44e0df747e9db530998c6ddc991dfbc32a619e870194f4fbceb"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -122,8 +122,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 5790,
-      "sha256": "32e5e58f603ad2ad1ba4ad2c066ad096b211135b304619d9f1f2ac62ec5c55fa"
+      "bytes": 5857,
+      "sha256": "83c318681f9c2b4253c0cc077779ea0d1c63d0b71d3e951647da268d04b759bd"
     },
     "index.js": {
       "bytes": 279815,

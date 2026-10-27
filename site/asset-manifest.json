@@ -1,6 +1,6 @@
 {
   "version": "0.2.41",
-  "adapter": "sequential-fetch-stream-v1",
+  "adapter": "sequential-fetch-stream-v2-content-addressed-parts",
   "chunkSize": 8388608,
   "files": {
     "index.wasm": {
@@ -361,5 +361,6 @@
       "bytes": 4414,
       "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
     }
-  }
+  },
+  "adapterSha256": "a304716acd94b44e0df747e9db530998c6ddc991dfbc32a619e870194f4fbceb"
 }

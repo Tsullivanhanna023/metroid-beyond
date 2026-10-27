@@ -29,7 +29,7 @@
     async function openPart() {
       const item = entry.chunks[part];
       const chunkAddress = new URL(item.file, root);
-      chunkAddress.search = address.search;
+      chunkAddress.search = address.search || '?v=' + item.sha256;
       const response = await nativeFetch(new Request(chunkAddress, request), { signal: abort.signal });
       if (!response.ok) throw new Error(`Unable to load ${item.file}: HTTP ${response.status}`);
       if (!response.body) throw new Error(`Empty response for ${item.file}`);

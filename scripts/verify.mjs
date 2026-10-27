@@ -55,7 +55,11 @@ for (const [name, entry] of Object.entries(manifest.copied)) {
 
 const adapter = await fs.readFile(path.join(site, 'engine-stream.js'), 'utf8');
 const shell = await fs.readFile(path.join(site, 'index.html'), 'utf8');
-check(shell.indexOf('src="engine-stream.js"') < shell.indexOf('src="index.js"'), 'stream adapter before engine');
+const adapterHash=sha(Buffer.from(adapter));
+const adapterScript='src="engine-stream.js?v='+adapterHash+'"';
+check(shell.includes(adapterScript) && shell.indexOf(adapterScript) < shell.indexOf('src="index.js"'), 'exact content-addressed stream adapter before engine');
+check(!shell.includes('src="engine-stream.js"'), 'no stale unversioned stream adapter script');
+check(manifest.adapterSha256===adapterHash, 'asset manifest identifies exact adapter bytes');
 check(shell.includes('const GODOT_THREADS_ENABLED = false;'), 'single-thread browser export without custom server headers');
 
 const origin = 'https://travis-test.github.io';
@@ -96,6 +100,22 @@ for (const basePath of basePaths) {
         request.headers.get('X-Release-Check') === 'kept' && request.cache === 'reload' && request.credentials === 'same-origin';
     }), `${basePath}${name}: repository path and request options preserved`);
   }
+  // A clean game start supplies no engine/package query. Each chunk therefore
+  // receives its own immutable byte hash, while explicit caller queries above
+  // remain unchanged. This exercises the real normal-URL startup path.
+  for (const [name, entry] of Object.entries(manifest.files)) {
+    const began=calls.length;
+    const response=await context.fetch(new URL(name,base).href,
+      {headers:{'X-Clean-Start':'kept'},cache:'default',credentials:'same-origin'});
+    check(response.status===200 && response.headers.get('content-type')===entry.mime, basePath+name+': clean-start streaming response');
+    check(sha(new Uint8Array(await response.arrayBuffer()))===entry.sha256,basePath+name+': clean-start exact runtime bytes');
+    const defaultCalls=calls.slice(began);
+    check(defaultCalls.length===entry.chunks.length && defaultCalls.every((request,index)=>{
+      const url=new URL(request.url);const item=entry.chunks[index];
+      return url.pathname===new URL(item.file,base).pathname && url.search==='?v='+item.sha256 &&
+        request.headers.get('X-Clean-Start')==='kept' && request.cache==='default' && request.credentials==='same-origin';
+    }),basePath+name+': clean-start chunks use their own byte hashes and preserve request options');
+  }
   const module = await WebAssembly.compileStreaming(await context.fetch(new URL('index.wasm', base).href));
   check(module instanceof WebAssembly.Module, `${basePath}: actual Godot engine streaming compile`);
   check(maximum === 1 && active === 0, `${basePath}: one chunk at a time`); peakConnections = Math.max(peakConnections, maximum);
@@ -122,4 +142,4 @@ for (const basePath of basePaths) {
 console.log(JSON.stringify({ result: 'PASS', version: release.version, checks, verifiedFiles: listed.length,
   totalBytes: Object.values(release.files).reduce((sum, entry) => sum + entry.bytes, 0),
   testedBasePaths: basePaths, maxConcurrentChunkFetches: peakConnections,
-  originalEngineAndGameBytes: true, originalRecordedAudioBytes: true }, null, 2));
+  originalEngineAndGameBytes: true, originalRecordedAudioBytes: true, contentAddressedAdapter: true, contentAddressedDefaultChunks: true, explicitCallerQueriesPreserved: true }, null, 2));
