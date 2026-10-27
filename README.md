@@ -1,14 +1,16 @@
 # Metroid Beyond
 
-A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.36** browser release.
+A personal, browser-only fan exploration game inspired by Super Metroid. Explore a mysterious alien planet, discover equipment, and follow the first 32-room chapter. This repository publishes the finished **0.2.37** browser release.
 
-This chapter revision gives the remaining rooms authored environmental identities, local creature territories and clearer encounter pacing, with sheltered discoveries and escalating approaches to guardians. The established 32-room world, progression, movement, charge beam, controller layout, browser saves and approved recorded score are preserved.
+This visual revision rebuilds the interface with frameless menus, native suit typography and artwork, clearer instruments, and a consistent reading and equipment presentation. A single compact spacecraft wreck replaces the repeated rib structure. The established 32-room world, progression, movement, combat, controller layout, browser saves and recorded score are preserved.
 
 Open the repository's GitHub Pages link to play. Click the game and press a controller button to activate controller input and sound. The game's controller setup screen explains the current mappings.
 
 Saves stay in your browser. A new hosting address has its own save storage, so saves from the previous website will not automatically appear here.
 
 The approved recorded soundtrack remains in this release while an original score is planned. See [music and sound credits](site/AUDIO_CREDITS.txt) for the artists, sources, licenses, and adaptations.
+
+Font families and their complete licenses are listed in [font credits](site/FONT_CREDITS.txt).
 
 ## Publishing updates
 

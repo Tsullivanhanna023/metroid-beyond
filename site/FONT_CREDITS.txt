@@ -1,0 +1,11 @@
+Metroid Beyond font credits
+
+Oxanium, unmodified font by Severin Meyer.
+Source: https://github.com/google/fonts/tree/main/ofl/oxanium
+License: SIL Open Font License 1.1. See licenses/Oxanium-OFL.txt.
+
+Liberation Sans, unmodified font, distributed with PDF.js standard fonts.
+Digitized data copyright 2010 Google Corporation. Copyright 2012 Red Hat, Inc.
+License: SIL Open Font License 1.1. See licenses/LiberationSans-OFL.txt.
+
+The complete license notices accompany these fonts both in the game package and in this release.

@@ -1,5 +1,5 @@
 {
-  "version": "0.2.36",
+  "version": "0.2.37",
   "adapter": "sequential-fetch-stream-v1",
   "chunkSize": 8388608,
   "files": {
@@ -36,14 +36,14 @@
       ]
     },
     "index.pck": {
-      "bytes": 123291660,
-      "sha256": "8e9a5dd8ecfad391f16574b0337ccf0861584fe3928cf74b15781777c251d14e",
+      "bytes": 124526180,
+      "sha256": "15ebf16d0b32432e94e965bf9da03b3a7be8c6565eb571c8c6f1d6ec67742b38",
       "mime": "application/octet-stream",
       "chunks": [
         {
           "file": "engine-parts/index.pck.part-000.bin",
           "bytes": 8388608,
-          "sha256": "f9de25da77fd3834194681631cb984602377a4974cf3034aceab4b8cfbf3aacc"
+          "sha256": "028c7348c4626eaf574aeedc35cc7d3043467f9dc4c891baac8849eb6455d486"
         },
         {
           "file": "engine-parts/index.pck.part-001.bin",
@@ -78,42 +78,42 @@
         {
           "file": "engine-parts/index.pck.part-007.bin",
           "bytes": 8388608,
-          "sha256": "6c8a5710c33afbfc90d5852969e07e91fe4c299150898b56b2cbb33cce3d0826"
+          "sha256": "576c233a104895c259133039d9c62b698695ab458178db371f1534fd5d5cc8e9"
         },
         {
           "file": "engine-parts/index.pck.part-008.bin",
           "bytes": 8388608,
-          "sha256": "d5b72f68ef48185e21bf86d78b8cc0d4661dad1dd6a120cb1658caf0baaeb9d1"
+          "sha256": "43ba8cb9f7bfc860529f976a004f5430e7e2e404e6a789c53b2305db9e50ab8d"
         },
         {
           "file": "engine-parts/index.pck.part-009.bin",
           "bytes": 8388608,
-          "sha256": "a4222d3eabbda3aca7de02a65d110256192730129d9c4e1564c60f34ece7251c"
+          "sha256": "744a686c4c3db4bf0641c1dc7d4fdec03752dbc8c29ef9a7f6b97b031b23b1eb"
         },
         {
           "file": "engine-parts/index.pck.part-010.bin",
           "bytes": 8388608,
-          "sha256": "b4a450798cf9e4db40c7f4e5d59d62156dfcbd6c102cddca4a73e60e034b1eea"
+          "sha256": "01d1a1679fda692de5c777fdff2a534eb369ad879f0cb914a0357e5377b32d9a"
         },
         {
           "file": "engine-parts/index.pck.part-011.bin",
           "bytes": 8388608,
-          "sha256": "400bac774ba9ccc5b0c4d6a0c8478e7608ad05dfc56fa712c4493993ac9a7db3"
+          "sha256": "76a0e0f7925c45f1fe31f80a57edc07d2d6d16a99ff52b2e43802cbd7a36f6d6"
         },
         {
           "file": "engine-parts/index.pck.part-012.bin",
           "bytes": 8388608,
-          "sha256": "6a79c5351d69a2f29c404a4e41cfa2dfe1c682404a2a271fc8489783a2b040a2"
+          "sha256": "144b1d0d1bbf62bf7a7ba98d65295c14953b2c340968a9a298ea947e1a2e79b9"
         },
         {
           "file": "engine-parts/index.pck.part-013.bin",
           "bytes": 8388608,
-          "sha256": "fe5d59ac3c2770512e733ded391687b989cdfccf527ca0092ce65c7795e163e0"
+          "sha256": "6c6064327d27c23ce6c8b9dd43ebcb3ead445d2711d7897550a0bad2193a9c75"
         },
         {
           "file": "engine-parts/index.pck.part-014.bin",
-          "bytes": 5851148,
-          "sha256": "85e946b5196a52692e5a49cafe0afd583a46d1acfe08ec9f013b0f0bfa9a759f"
+          "bytes": 7085668,
+          "sha256": "1b8cb54191414c34bf08579f245dacf62df8ce7767043c08d10a8e0fa74a86af"
         }
       ]
     }
@@ -338,6 +338,18 @@
     "music/sfx-pickup.wav": {
       "bytes": 1455344,
       "sha256": "4944a5c620ce72dacf740639ed75ab8c58c85eae8d2aa721ed081ac3f4a3942e"
+    },
+    "FONT_CREDITS.txt": {
+      "bytes": 525,
+      "sha256": "6acbac77f03ddc280e7e0e83832b2923ea8d71a42257923cea02f2c180acedc1"
+    },
+    "licenses/Oxanium-OFL.txt": {
+      "bytes": 4384,
+      "sha256": "fe17c0f2581d71b4e1ea7e636e7f4877c29223e11bb1dd1a871e8c3f2a86336b"
+    },
+    "licenses/LiberationSans-OFL.txt": {
+      "bytes": 4414,
+      "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
     }
   }
 }

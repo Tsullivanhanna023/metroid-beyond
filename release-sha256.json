@@ -1,5 +1,5 @@
 {
-  "version": "0.2.36",
+  "version": "0.2.37",
   "basePaths": [
     "/",
     "/metroid-beyond/"
@@ -13,13 +13,17 @@
       "bytes": 1343,
       "sha256": "2a1b06d383e0171863aaf7fcf8fad95499ca823f93209cb06e0c135ca9d526bd"
     },
+    "FONT_CREDITS.txt": {
+      "bytes": 525,
+      "sha256": "6acbac77f03ddc280e7e0e83832b2923ea8d71a42257923cea02f2c180acedc1"
+    },
     "asset-manifest.json": {
-      "bytes": 12317,
-      "sha256": "5875b5afa7ad4e34369341f88c8b0effe9ba4dcabf86de7402e7c2bb0df2ffe2"
+      "bytes": 12750,
+      "sha256": "7d325210a297978d4f43b182059f7ccb576f12454e8086ab325f7a3ebf62a5a2"
     },
     "engine-parts/index.pck.part-000.bin": {
       "bytes": 8388608,
-      "sha256": "f9de25da77fd3834194681631cb984602377a4974cf3034aceab4b8cfbf3aacc"
+      "sha256": "028c7348c4626eaf574aeedc35cc7d3043467f9dc4c891baac8849eb6455d486"
     },
     "engine-parts/index.pck.part-001.bin": {
       "bytes": 8388608,
@@ -47,35 +51,35 @@
     },
     "engine-parts/index.pck.part-007.bin": {
       "bytes": 8388608,
-      "sha256": "6c8a5710c33afbfc90d5852969e07e91fe4c299150898b56b2cbb33cce3d0826"
+      "sha256": "576c233a104895c259133039d9c62b698695ab458178db371f1534fd5d5cc8e9"
     },
     "engine-parts/index.pck.part-008.bin": {
       "bytes": 8388608,
-      "sha256": "d5b72f68ef48185e21bf86d78b8cc0d4661dad1dd6a120cb1658caf0baaeb9d1"
+      "sha256": "43ba8cb9f7bfc860529f976a004f5430e7e2e404e6a789c53b2305db9e50ab8d"
     },
     "engine-parts/index.pck.part-009.bin": {
       "bytes": 8388608,
-      "sha256": "a4222d3eabbda3aca7de02a65d110256192730129d9c4e1564c60f34ece7251c"
+      "sha256": "744a686c4c3db4bf0641c1dc7d4fdec03752dbc8c29ef9a7f6b97b031b23b1eb"
     },
     "engine-parts/index.pck.part-010.bin": {
       "bytes": 8388608,
-      "sha256": "b4a450798cf9e4db40c7f4e5d59d62156dfcbd6c102cddca4a73e60e034b1eea"
+      "sha256": "01d1a1679fda692de5c777fdff2a534eb369ad879f0cb914a0357e5377b32d9a"
     },
     "engine-parts/index.pck.part-011.bin": {
       "bytes": 8388608,
-      "sha256": "400bac774ba9ccc5b0c4d6a0c8478e7608ad05dfc56fa712c4493993ac9a7db3"
+      "sha256": "76a0e0f7925c45f1fe31f80a57edc07d2d6d16a99ff52b2e43802cbd7a36f6d6"
     },
     "engine-parts/index.pck.part-012.bin": {
       "bytes": 8388608,
-      "sha256": "6a79c5351d69a2f29c404a4e41cfa2dfe1c682404a2a271fc8489783a2b040a2"
+      "sha256": "144b1d0d1bbf62bf7a7ba98d65295c14953b2c340968a9a298ea947e1a2e79b9"
     },
     "engine-parts/index.pck.part-013.bin": {
       "bytes": 8388608,
-      "sha256": "fe5d59ac3c2770512e733ded391687b989cdfccf527ca0092ce65c7795e163e0"
+      "sha256": "6c6064327d27c23ce6c8b9dd43ebcb3ead445d2711d7897550a0bad2193a9c75"
     },
     "engine-parts/index.pck.part-014.bin": {
-      "bytes": 5851148,
-      "sha256": "85e946b5196a52692e5a49cafe0afd583a46d1acfe08ec9f013b0f0bfa9a759f"
+      "bytes": 7085668,
+      "sha256": "1b8cb54191414c34bf08579f245dacf62df8ce7767043c08d10a8e0fa74a86af"
     },
     "engine-parts/index.wasm.part-000.bin": {
       "bytes": 8388608,
@@ -99,7 +103,7 @@
     },
     "engine-stream.js": {
       "bytes": 6535,
-      "sha256": "4c5dd53f66b7b76250f448d9e38f6238b7e52a412e37575583b3c36811ccfe31"
+      "sha256": "c708f8257f536fd1b2fd33674cf3db404f3663465b6521b26eff7a77fa87bdc8"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -111,7 +115,7 @@
     },
     "index.html": {
       "bytes": 5790,
-      "sha256": "bdb22ae7aa89eb47d267312b711b8f5bc1c64665e93d32fec4dbb672de2752a3"
+      "sha256": "fe359bf9eb35bc39c2224ee65ffbcb81d373ec46724f134f843a95c3067dcd51"
     },
     "index.js": {
       "bytes": 279815,
@@ -120,6 +124,14 @@
     "index.png": {
       "bytes": 1628030,
       "sha256": "18d27d65198f1e0a031bea81290d551041084a59f8c7525bd2bcf76daa2391d0"
+    },
+    "licenses/LiberationSans-OFL.txt": {
+      "bytes": 4414,
+      "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
+    },
+    "licenses/Oxanium-OFL.txt": {
+      "bytes": 4384,
+      "sha256": "fe17c0f2581d71b4e1ea7e636e7f4877c29223e11bb1dd1a871e8c3f2a86336b"
     },
     "music/music-coast.wav": {
       "bytes": 13759244,
