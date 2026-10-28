@@ -1,5 +1,5 @@
 {
-  "version": "0.2.41",
+  "version": "0.2.42",
   "basePaths": [
     "/",
     "/metroid-beyond/"
@@ -18,12 +18,12 @@
       "sha256": "6acbac77f03ddc280e7e0e83832b2923ea8d71a42257923cea02f2c180acedc1"
     },
     "asset-manifest.json": {
-      "bytes": 13247,
-      "sha256": "3fd2b90239c12a18c8ffd1ef7f58eddd095f4371163d634b3696abbbe72478b4"
+      "bytes": 13439,
+      "sha256": "0491c82e11ea7b124ffa45b3c68829ab1175b6a6097574ec38712bbf6e927447"
     },
     "engine-parts/index.pck.part-000.bin": {
       "bytes": 8388608,
-      "sha256": "5fdb99b944e4bbb801299c4f949ede32e112e6778cfc81d828dc86b00d684d23"
+      "sha256": "e430cf7a7959c69c7a4d64d5f8d2bb63ea25bfc86c1521a9655347e7f7f14b77"
     },
     "engine-parts/index.pck.part-001.bin": {
       "bytes": 8388608,
@@ -55,39 +55,43 @@
     },
     "engine-parts/index.pck.part-008.bin": {
       "bytes": 8388608,
-      "sha256": "a5b35557f27b3029fd5d3c1d262d932f5141e514e603a72f6535813909edd8ce"
+      "sha256": "09ab7bded15de5ff83746adb05c37cd32224782ebf75b031ab52bfadc2985139"
     },
     "engine-parts/index.pck.part-009.bin": {
       "bytes": 8388608,
-      "sha256": "fd8f1511d54217a6caab146f830bad071e0d94290c4a0a5d4353b4b1db1605bf"
+      "sha256": "ae58cb54c29417f09d0f7798962816b2e9562cb5b1fff065cb22230495c426bc"
     },
     "engine-parts/index.pck.part-010.bin": {
       "bytes": 8388608,
-      "sha256": "082e40c9001abc207751b7bb549cb854e542d60a1b4e95644a5069c53189e1e5"
+      "sha256": "54ef536b7425d17c251adf85caa759043b67d613045904784944eca9ba2427b7"
     },
     "engine-parts/index.pck.part-011.bin": {
       "bytes": 8388608,
-      "sha256": "b315b656bffea1c03a0aaa34bf656f6e3b3a4435484b4e84d9c971a07dac4193"
+      "sha256": "a245fff4bcb3003f25e13b1380ad7541f297e72641b5d363a092674493a5de0f"
     },
     "engine-parts/index.pck.part-012.bin": {
       "bytes": 8388608,
-      "sha256": "62cdebc04b32d49f442cfc145bb9c21d5777e791d78586dae1991ed1a73aaee7"
+      "sha256": "92b1164ecdfcc10dfeda3c6710fb50315ab6caf3d7e446910a79127992bbf9ba"
     },
     "engine-parts/index.pck.part-013.bin": {
       "bytes": 8388608,
-      "sha256": "39d227a84ebd75bcc611f3ab8a8a684808f2e80c3e34868b28791613722afa31"
+      "sha256": "ba9f9b8210697f5aff4770fca0c6b1b418c5d5b4f9f5031bdcc226c2d57c75fe"
     },
     "engine-parts/index.pck.part-014.bin": {
       "bytes": 8388608,
-      "sha256": "2712346c991c08fac406d1683f0033597fa3ec1a698726681c8dd665fc6d1f3d"
+      "sha256": "04e33923c4ecd13a0cf4e48ccf5af5a9676f23cac731fbffd06f97b6d62c34b4"
     },
     "engine-parts/index.pck.part-015.bin": {
       "bytes": 8388608,
-      "sha256": "120c67c91765de580480bbee7d942fb7eb8f62d3fef203b3342dc858d13fee20"
+      "sha256": "2c8ec24512481b7e3708b3a58fd29efd17bac45c0a89cffaf42b07f71b41add0"
     },
     "engine-parts/index.pck.part-016.bin": {
-      "bytes": 6712880,
-      "sha256": "4a19a5d5856eefcf389313829f0fbab989aeedd36f425bc53c17116e91402d9e"
+      "bytes": 8388608,
+      "sha256": "810c0606868d8fff98f2975df408a519b1b33a9efef0626fb386203cddf8c762"
+    },
+    "engine-parts/index.pck.part-017.bin": {
+      "bytes": 118764,
+      "sha256": "6988e32afe996aac5d989be3472649e13b2aebd02ca910e58d30787ba26a1f9e"
     },
     "engine-parts/index.wasm.part-000.bin": {
       "bytes": 8388608,
@@ -110,8 +114,8 @@
       "sha256": "219249da87c3cfda9a89fba24e253e60d6efd5191d0b108120ad93e51e54d707"
     },
     "engine-stream.js": {
-      "bytes": 6836,
-      "sha256": "a304716acd94b44e0df747e9db530998c6ddc991dfbc32a619e870194f4fbceb"
+      "bytes": 6974,
+      "sha256": "d561dd2ee7a73a79d1dd4cef5212b8164bfc865decf502425e20dc8e3ee4614d"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -122,8 +126,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 5857,
-      "sha256": "83c318681f9c2b4253c0cc077779ea0d1c63d0b71d3e951647da268d04b759bd"
+      "bytes": 6852,
+      "sha256": "9a8648766dbfce8c365c4c0b2ead045b947fcba27a82edda9f512e66336ded3f"
     },
     "index.js": {
       "bytes": 279815,
