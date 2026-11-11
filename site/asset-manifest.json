@@ -1,5 +1,5 @@
 {
-  "version": "0.2.46",
+  "version": "0.2.47",
   "adapter": "sequential-fetch-stream-v2-content-addressed-parts",
   "chunkSize": 8388608,
   "files": {
@@ -36,14 +36,14 @@
       ]
     },
     "index.pck": {
-      "bytes": 153657792,
-      "sha256": "18ae59c8005096734f756aa5c7c3c2b4c7a75f4807441e62787d5f6c7b1b69e3",
+      "bytes": 154283696,
+      "sha256": "481a96d5181ffc7b6e3de60e45ac4ba352de7c5b7b0e88a8ffcdac9cb7531ba9",
       "mime": "application/octet-stream",
       "chunks": [
         {
           "file": "engine-parts/index.pck.part-000.bin",
           "bytes": 8388608,
-          "sha256": "65aa9b6a2a06f42ac7232c4ecfdeb3db256cc4aa2532ad7bbf298aba7047dec1"
+          "sha256": "7f08b154c7b7b31acb3c128b06f41705c365867a606fa3f2780781d994414dbd"
         },
         {
           "file": "engine-parts/index.pck.part-001.bin",
@@ -132,8 +132,8 @@
         },
         {
           "file": "engine-parts/index.pck.part-018.bin",
-          "bytes": 2662848,
-          "sha256": "7df56ac014a4c8f011c6889baa6177705064d9b86b154ba9253df46ee6833714"
+          "bytes": 3288752,
+          "sha256": "9bd8bf4b09a9b37e2d6df473fb9f7ab14a3201a28c012f097b47598503e42c61"
         }
       ]
     }
@@ -372,5 +372,5 @@
       "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
     }
   },
-  "adapterSha256": "b0652740e05098bb3759e0b730262c65053d5f39d5c4db07216ce52e2bba2079"
+  "adapterSha256": "bcb0cf9d9b8861000569eb6d45ef763817e13f56550c82bc2cb0b0020f6a5fa7"
 }
