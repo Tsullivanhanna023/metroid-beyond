@@ -348,6 +348,106 @@
     "music/sfx-thermal_hit.wav": {
       "bytes": 37088,
       "sha256": "48c4a60560246d4f11011c1b7063a44f2179fe6fd498d7c84dec54fc101f4484"
+    },
+    "preview/engine-parts/index.pck.part-000.bin": {
+      "bytes": 8388608,
+      "sha256": "bcd6adf017f25a001248654907e34340ea83aa7fd3a0966c0481ee6ab228a00a"
+    },
+    "preview/engine-parts/index.pck.part-001.bin": {
+      "bytes": 8388608,
+      "sha256": "e13a611782fa933bf3d07f9eb39146ac42d4c738f6fc6989c4ce5253275969d3"
+    },
+    "preview/engine-parts/index.pck.part-002.bin": {
+      "bytes": 8388608,
+      "sha256": "5c337f528b2f9dbe5fa89adb98e63a14d8a3f5d2ee62aacd9d0a2cdc7b40e51c"
+    },
+    "preview/engine-parts/index.pck.part-003.bin": {
+      "bytes": 8388608,
+      "sha256": "0717c355fc5109cbe445e5a9db8a01d418f7270e4b6c43b89996541871d9eb79"
+    },
+    "preview/engine-parts/index.pck.part-004.bin": {
+      "bytes": 8388608,
+      "sha256": "98436b05183bdec0d03b2976ee10913b7ea2d59f51c923bd1d6432d5e905d199"
+    },
+    "preview/engine-parts/index.pck.part-005.bin": {
+      "bytes": 8388608,
+      "sha256": "5b1f4bd29bac8e8149d65e57dd5f3580c9ccb84a539b89373bb890286140f169"
+    },
+    "preview/engine-parts/index.pck.part-006.bin": {
+      "bytes": 8388608,
+      "sha256": "579c948b6c29826f44f58954de974ec2301b217308af65470a6780c51308f1a4"
+    },
+    "preview/engine-parts/index.pck.part-007.bin": {
+      "bytes": 8388608,
+      "sha256": "2437dd5d53a2291d3e69d5709217863a03bc5750590640a837f2cf5069d3ccb6"
+    },
+    "preview/engine-parts/index.pck.part-008.bin": {
+      "bytes": 8388608,
+      "sha256": "074af22f6b3843bcef1d36b9a069e3584f75f385624fd9aa5fbbc3acdafae7ec"
+    },
+    "preview/engine-parts/index.pck.part-009.bin": {
+      "bytes": 8388608,
+      "sha256": "1eee0e954144172444a42111e97e0812c01fdbcb6af4336a94a19899b713b9ca"
+    },
+    "preview/engine-parts/index.pck.part-010.bin": {
+      "bytes": 8388608,
+      "sha256": "241db41034ac4b23c8018cd128468d8c40ea60e5f0dd68ce65cb54c23245edd6"
+    },
+    "preview/engine-parts/index.pck.part-011.bin": {
+      "bytes": 8388608,
+      "sha256": "efce9b6433a9cc54c97eb74c5d24fa266141d714dd1df0526e8b415342967ba9"
+    },
+    "preview/engine-parts/index.pck.part-012.bin": {
+      "bytes": 8388608,
+      "sha256": "b86ad5033cf9886b2d95495c7a7414f9edc4fc654a283e4ab0252401f66e22fb"
+    },
+    "preview/engine-parts/index.pck.part-013.bin": {
+      "bytes": 8388608,
+      "sha256": "98ba0d6255f34cea9d51f0851f48847c89954bbeefd571fda788aec5be87cb9c"
+    },
+    "preview/engine-parts/index.pck.part-014.bin": {
+      "bytes": 8388608,
+      "sha256": "6439da4d9faff44c52f6d48ae4e869ea241d17e711661d33d83a5e2f141af6e5"
+    },
+    "preview/engine-parts/index.pck.part-015.bin": {
+      "bytes": 8388608,
+      "sha256": "edd535b59568a9c6e19b9690918c22c2268a3286598f1a49453d73cd5f7a60da"
+    },
+    "preview/engine-parts/index.pck.part-016.bin": {
+      "bytes": 8388608,
+      "sha256": "d3f7bfeed1c292744b1653ae08772fa1ccec72d92af3d057676c497c1d7d1c43"
+    },
+    "preview/engine-parts/index.pck.part-017.bin": {
+      "bytes": 8388608,
+      "sha256": "6d70e668048e5a96660fdfc9337c2e8327143d19ee90ac03c6f8884492fd4770"
+    },
+    "preview/engine-parts/index.pck.part-018.bin": {
+      "bytes": 2692436,
+      "sha256": "69ee6bca6162d7a5293da8f094b4b64bd1061c26d6ed459296a280fa3bfc24ed"
+    },
+    "preview/engine-stream.js": {
+      "bytes": 7052,
+      "sha256": "06b92f873a75512ed1fae2e6deeed917ce41caec51aea065cd7d128c0d0be229"
+    },
+    "preview/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "preview/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "preview/index.html": {
+      "bytes": 6873,
+      "sha256": "117aa3f39a5db904346b87fcfafdd596b7838b1adb735807c242994b554ad27a"
+    },
+    "preview/index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "preview/index.png": {
+      "bytes": 1628030,
+      "sha256": "18d27d65198f1e0a031bea81290d551041084a59f8c7525bd2bcf76daa2391d0"
     }
   }
 }
